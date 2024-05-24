@@ -38,7 +38,7 @@ Penelitian ini bertujuan untuk mengembangkan sistem rekomendasi film yang dapat 
 
 ## Data Understanding
 
-Dataset yang digunakan dalam proyek ini adalah "IMDB Top 250 Movies Dataset: The Most Highly Rated Movies on IMDB". Dataset ini dapat diunduh dari sumber Kaggle: [IMDB Top 250 Movies Dataset](https://www.kaggle.com/datasets/rajugc/imdb-top-250-movies-dataset). Dataset ini merupakan kumpulan data yang berisi informasi tentang 250 film teratas di IMDB pada tahun 2021. Data ini mencakup berbagai atribut film seperti judul, tahun rilis, rating, genre, sutradara, dan penulis. DDataset ini berisi informasi tentang 250 film teratas di IMDB. Berikut adalah deskripsi singkat tentang dataset ini:
+Dataset yang digunakan dalam proyek ini adalah "IMDB Top 250 Movies Dataset: The Most Highly Rated Movies on IMDB". Dataset ini dapat diunduh dari sumber Kaggle: [IMDB Top 250 Movies Dataset](https://www.kaggle.com/datasets/rajugc/imdb-top-250-movies-dataset). Data ini mencakup berbagai atribut film seperti judul, tahun rilis, rating, genre, sutradara, dan penulis. Dataset ini berisi informasi tentang 250 film teratas di IMDB. Berikut adalah deskripsi singkat tentang dataset ini:
 
 - Jumlah data: 250 entri
 - Jumlah kolom: 13 kolom
