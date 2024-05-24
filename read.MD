@@ -8,7 +8,9 @@ Dalam dunia perfilman, film bukan hanya merupakan karya seni yang memikat, tetap
 
 Sumber Referensi:
 [1] Apriliany, L., & Hermiati, H. (2021, May). Peran Media Film Dalam Pembelajaran Sebagai Pembentuk Pendidikan Karakter. In Prosiding Seminar Nasional Program Pascasarjana Universitas Pgri Palembang.
+
 [2] Wardah, M. I., & Putra, S. D. (2022). Implementasi Machine Learning Untuk Rekomendasi Film Di Imdb Menggunakan Collaborative Filtering Berdasarkan Analisa Sentimen IMDB. Jurnal Manajamen Informatika Jayakarta, 2(3), 243-249.
+
 [3] Ciaputra, A. T., & Hansun, S. (2020). Rekomendasi Pemilihan Film Dengan Hybrid Filtering Dan Knearest Neighbor. Jurnal Rekayasa Informasi, 9(2), 101-109.
 
 ## Business Understanding
