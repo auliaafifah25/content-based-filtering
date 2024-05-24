@@ -165,8 +165,7 @@ Pada tabel 2. Menunjukkan bahwa 4 film memiliki genre yang sama dengan film "_Th
 
 Dalam proyek ini, metrik evaluasi yang digunakan adalah _precision_. Precision dihitung sebagai jumlah film yang direkomendasikan yang memiliki genre yang sama dengan genre film yang diketahui sebagai benar (_actual genre_) dibagi dengan total jumlah film yang direkomendasikan. Metrik ini definisikan sebagai:
 
-Precision = $Jumlah  film  direkomendasikan  yang  sesuai  dengan  preferensi  pengguna \over Total 
- jumlah  film  direkomendasikan$
+Precision = $Jumlah\ film\ direkomendasikan\ yang\ sesuai\ dengan\ preferensi\ pengguna \over Total\ jumlah\ film\ direkomendasikan$
 
 Dalam proyek ini, menggunakan metrik precision untuk mengevaluasi seberapa baik sistem rekomendasi film dalam memberikan rekomendasi yang sesuai dengan genre film yang disukai pengguna. Semakin tinggi nilai precision, semakin baik sistem dalam memberikan rekomendasi yang relevan dengan preferensi pengguna. Hasil evaluasi menunjukkan bahwa _precision_ yang diperoleh adalah 0.80. Artinya, dari 5 film yang direkomendasikan, 4 film memiliki genre yang sesuai dengan genre film "_The Dark Knight_", yaitu _Action, Crime_, dan Drama.
 
