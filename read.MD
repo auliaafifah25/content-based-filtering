@@ -102,8 +102,10 @@ Pada tahap ini, data akan dipersiapkan untuk pengembangan model. Berikut adalah 
    | 10  | casts       | 250 non-null   | object  |
    | 11  | directors   | 250 non-null   | object  |
    | 12  | writers     | 250 non-null   | object  |
-    Tabel 1. Informasi pada dataset
-    Pada tabel 1. Menunjukkan informasi mengenai kolum, isi data, dan tipe data. Terdapat kombinasi tipe data integer, object, dan float dalam dataset, serta setiap kolom memiliki 250 entri.
+
+   Tabel 1. Informasi pada dataset
+
+   Pada tabel 1. Menunjukkan informasi mengenai kolum, isi data, dan tipe data. Terdapat kombinasi tipe data integer, object, dan float dalam dataset, serta setiap kolom memiliki 250 entri.
 
    - Int: Tipe data integer (int) adalah tipe data numerik yang digunakan untuk menyimpan bilangan bulat.
    - Object: Tipe data object adalah tipe data umum yang digunakan untuk menyimpan teks atau string.
@@ -143,7 +145,10 @@ Dengan menggunakan fungsi film_recommendations (film_recommendations('The Dark K
 | 2   | Batman Begins                       | Action,Crime,Drama  |
 | 3   | Kill Bill: Vol. 1                   | Action,Crime,Drama  |
 | 4   | Lock, Stock and Two Smoking Barrels | Action,Comedy,Crime |
+
+
 Tabel 2. Top-r rekomendasi
+
 
 Pada tabel 2. Menunjukkan bahwa 4 film memiliki genre yang sama dengan film "_The Dark Knight_", yaitu _Action, Crime_, dan Drama dan film '_Lock, Stock and Two Smoking Barrels_' memiliki Action, Comedy, Crime. Berbeda satu genre dengan film '_The Dark Knight_' yaitu drama.
 
