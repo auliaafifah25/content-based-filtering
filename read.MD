@@ -94,9 +94,9 @@ Pada tahap ini, data akan dipersiapkan untuk pengembangan model. Berikut adalah 
 
    Pada gambar 3. Menunjukkan informasi mengenai kolum, isi data, dan tipe data.
 
-- Int: Tipe data integer (int) adalah tipe data numerik yang digunakan untuk menyimpan bilangan bulat.
-- Object: Tipe data object adalah tipe data umum yang digunakan untuk menyimpan teks atau string.
-- Float: Tipe data float adalah tipe data numerik yang digunakan untuk menyimpan bilangan pecahan atau desimal.
+   - Int: Tipe data integer (int) adalah tipe data numerik yang digunakan untuk menyimpan bilangan bulat.
+   - Object: Tipe data object adalah tipe data umum yang digunakan untuk menyimpan teks atau string.
+   - Float: Tipe data float adalah tipe data numerik yang digunakan untuk menyimpan bilangan pecahan atau desimal.
 
 2. Melihat Statistik Deskriptif: Dengan menggunakan df.describe(include="all"), mendapatkan statistik deskriptif untuk setiap variabel dalam dataset, baik numerik maupun kategorikal. Contoh sebagai berikut:
    - Jumlah Data: Terdapat 250 entri dalam dataset untuk setiap kolom.
