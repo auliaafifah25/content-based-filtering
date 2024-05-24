@@ -80,7 +80,7 @@ Pada tahap ini, data akan dipersiapkan untuk pengembangan model. Berikut adalah 
 - Object: Tipe data object adalah tipe data umum yang digunakan untuk menyimpan teks atau string.
 - Float: Tipe data float adalah tipe data numerik yang digunakan untuk menyimpan bilangan pecahan atau desimal.
 
-2. Melihat Statistik Deskriptif: Dengan menggunakan df.describe(include="all"), kita mendapatkan statistik deskriptif untuk setiap variabel dalam dataset, baik numerik maupun kategorikal.
+2. Melihat Statistik Deskriptif: Dengan menggunakan df.describe(include="all"), mendapatkan statistik deskriptif untuk setiap variabel dalam dataset, baik numerik maupun kategorikal.
 3. Penanganan Nilai yang Hilang: Dari informasi data, terlihat bahwa tidak ada nilai yang hilang dalam dataset. Oleh karena itu, tidak diperlukan penanganan khusus untuk nilai yang hilang.
 
 Informasi Tambahan:
@@ -90,7 +90,7 @@ Informasi Tambahan:
 
 ## Modeling
 
-Pada tahap Modeling, kita menggunakan algoritma _content-based filtering_ untuk membuat rekomendasi film berdasarkan kemiripan genre antara film yang ada dalam dataset. Berikut adalah langkah-langkah yang dilakukan:
+Pada tahap Modeling, menggunakan algoritma _content-based filtering_ untuk membuat rekomendasi film berdasarkan kemiripan genre antara film yang ada dalam dataset. Berikut adalah langkah-langkah yang dilakukan:
 
 1. Inisialisasi _TfidfVectorizer_: Digunakan untuk mengubah teks genre menjadi vektor representasi numerik menggunakan pendekatan TF-IDF.
 2. Melakukan Perhitungan IDF pada Data Genre: Menghitung nilai IDF (_Inverse Document Frequency_) untuk setiap kata kunci dalam teks genre.
