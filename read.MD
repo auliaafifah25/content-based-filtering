@@ -104,6 +104,9 @@ Pada tahap Modeling, kita menggunakan algoritma _content-based filtering_ untuk 
 7. Menampilkan Rekomendasi: Menggunakan fungsi film_recommendations untuk mendapatkan rekomendasi film yang mirip dengan film "The Dark Knight".
 
 Dengan menggunakan _content-based filtering_, dapat memberikan rekomendasi film yang memiliki kemiripan genre dengan film yang disukai pengguna. Rekomendasi tersebut bisa membantu pengguna menemukan film baru yang sesuai dengan preferensi mereka.
+Dengan menggunakan fungsi film_recommendations (film_recommendations('The Dark Knight')
+), bisa mendapatkan top-5 rekomendasi film yang mirip dengan film yang dipilih berdasarkan genre. Misalnya, jika ingin mencari film yang mirip dengan "The Dark Knight", akan mendapatkan hasil sebagai berikut:
+![5 rekomendasi](image-3.png)
 
 1. Kelebihan _Content-Based Filtering_:
    - Tidak memerlukan informasi eksternal atau data pengguna lainnya, hanya memerlukan data internal tentang film itu sendiri.
@@ -118,7 +121,7 @@ Dalam proyek ini, metrik evaluasi yang digunakan adalah _precision_. Precision d
 
 Hasil evaluasi menunjukkan bahwa _precision_ yang diperoleh adalah 0.80. Artinya, dari 5 film yang direkomendasikan, 4 film memiliki genre yang sesuai dengan genre film "_The Dark Knight_", yaitu _Action, Crime_, dan Drama.
 ![5 rekomendasi](image-3.png)
-Pada gambar 4. Menunjukkan bahwa 4 film memiliki genre yang sama dengan film "_The Dark Knight_", yaitu _Action, Crime_, dan Drama dan film '_Lock, Stock and Two Smoking Barrels_' memiliki Action, Comedy, Crime. Berbeda satu genre dengan film "_The Dark Knight_" yaitu drama dan comedy
+Pada gambar 4. Menunjukkan bahwa 4 film memiliki genre yang sama dengan film "_The Dark Knight_", yaitu _Action, Crime_, dan Drama dan film '_Lock, Stock and Two Smoking Barrels_' memiliki Action, Comedy, Crime. Berbeda satu genre dengan film '_The Dark Knight_' yaitu drama.
 
 Dengan _precision_ sebesar 0.80, dapat disimpulkan bahwa sistem rekomendasi yang dibangun memiliki tingkat akurasi yang cukup tinggi dalam merekomendasikan film-film yang sesuai dengan genre film yang diketahui. Hasil ini menunjukkan bahwa sistem rekomendasi telah berhasil memberikan rekomendasi yang relevan dengan preferensi pengguna berdasarkan genre film yang disukai sebelumnya.
 
