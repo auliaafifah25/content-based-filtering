@@ -26,7 +26,7 @@ Penelitian ini bertujuan untuk mengembangkan sistem rekomendasi film yang dapat 
    - Platform film: Mereka adalah sasaran untuk meningkatkan retensi pengguna, meningkatkan pengalaman pengguna, dan meningkatkan kepuasan pengguna secara keseluruhan.
    - Pengguna: Pengguna adalah target utama dari rekomendasi film yang disediakan oleh platform. Mereka mencari pengalaman menonton yang memuaskan dan ingin menemukan konten yang sesuai dengan minat genre mereka dengan mudah.
 
-3. Penerapan Aplikatif
+3. Penerapan Aplikatif:
    Penerapan akan dilakukan melalui integrasi algoritma content-based filtering. Dengan memanfaatkan data dari dataset IMDB Top 250 Movies dan algoritma content-based filtering, platform akan dapat menyediakan rekomendasi film yang lebih relevan kepada pengguna. Dengan demikian, penerapan ini akan memberikan manfaat langsung kepada pengguna dan membantu platform dalam mencapai tujuan bisnis mereka.
 
 ### Problem Statements
@@ -77,6 +77,7 @@ Pada tahap ini, data akan dipersiapkan untuk pengembangan model. Berikut adalah 
 
 1. Melihat Informasi pada Dataset: Dengan menggunakan df.info(), mendapatkan informasi tentang jumlah entri dan tipe data untuk setiap kolom.
    ![informasi data](image-2.png)
+   Pada gambar 3. Menunjukkan informasi mengenai kolum, isi data, dan tipe data.
 
 - Int: Tipe data integer (int) adalah tipe data numerik yang digunakan untuk menyimpan bilangan bulat.
 - Object: Tipe data object adalah tipe data umum yang digunakan untuk menyimpan teks atau string.
@@ -116,6 +117,8 @@ Dengan menggunakan _content-based filtering_, dapat memberikan rekomendasi film 
 Dalam proyek ini, metrik evaluasi yang digunakan adalah _precision_. Precision dihitung sebagai jumlah film yang direkomendasikan yang memiliki genre yang sama dengan genre film yang diketahui sebagai benar (_actual genre_) dibagi dengan total jumlah film yang direkomendasikan.
 
 Hasil evaluasi menunjukkan bahwa _precision_ yang diperoleh adalah 0.80. Artinya, dari 5 film yang direkomendasikan, 4 film memiliki genre yang sesuai dengan genre film "_The Dark Knight_", yaitu _Action, Crime_, dan Drama.
+![5 rekomendasi](image-3.png)
+Pada gambar 4. Menunjukkan bahwa 4 film memiliki genre yang sama dengan film "_The Dark Knight_", yaitu _Action, Crime_, dan Drama dan film '_Lock, Stock and Two Smoking Barrels_' memiliki Action, Comedy, Crime. Berbeda satu genre dengan film "_The Dark Knight_" yaitu drama dan comedy
 
 Dengan _precision_ sebesar 0.80, dapat disimpulkan bahwa sistem rekomendasi yang dibangun memiliki tingkat akurasi yang cukup tinggi dalam merekomendasikan film-film yang sesuai dengan genre film yang diketahui. Hasil ini menunjukkan bahwa sistem rekomendasi telah berhasil memberikan rekomendasi yang relevan dengan preferensi pengguna berdasarkan genre film yang disukai sebelumnya.
 
