@@ -31,10 +31,10 @@ Penelitian ini bertujuan untuk mengembangkan sistem rekomendasi film yang dapat 
 1. Membangun sistem rekomendasi yang efektif dan efisien untuk membantu pengguna memilih film yang sesuai dengan preferensi mereka di tengah banyaknya pilihan yang tersedia. Sistem ini akan menggunakan algoritma _content-based filtering_ untuk memberikan rekomendasi yang relevan berdasarkan genre yang disukai pengguna.
 2. Mengembangkan model rekomendasi yang dapat meningkatkan pengalaman pengguna dengan menyediakan film-film yang sesuai dengan minat dan preferensi mereka. Dengan memanfaatkan algoritma _content-based filtering_, akan mampu menawarkan rekomendasi yang lebih personal dan relevan, sehingga pengguna merasa puas dan terus menggunakan layanan tersebut.
 
-   ### Solution statements
+### Solution statements
 
-   - Algoritma Content-Based Filtering: akan menggunakan algoritma _content-based filtering_. Algoritma ini akan memberikan rekomendasi film berdasarkan kesamaan atribut film, seperti genre. Dengan memanfaatkan informasi-informasi tersebut, dapat menentukan film-film yang memiliki kesamaan karakteristik dengan film yang disukai oleh pengguna.
-   - Rekomendasi yang Personal dan Relevan: bertujuan untuk meningkatkan pengalaman pengguna dengan menyediakan rekomendasi film yang sesuai dengan minat dan preferensi mereka. Dengan memanfaatkan algoritma _content-based filtering_, sistem dapat menawarkan rekomendasi yang lebih personal dan relevan. Sesuai dengan goals kedua, yang mencakup pengembangan model rekomendasi yang dapat meningkatkan pengalaman pengguna.
+1. Algoritma Content-Based Filtering: akan menggunakan algoritma _content-based filtering_. Algoritma ini akan memberikan rekomendasi film berdasarkan kesamaan atribut film, seperti genre. Dengan memanfaatkan informasi-informasi tersebut, dapat menentukan film-film yang memiliki kesamaan karakteristik dengan film yang disukai oleh pengguna.
+2. Rekomendasi yang Personal dan Relevan: bertujuan untuk meningkatkan pengalaman pengguna dengan menyediakan rekomendasi film yang sesuai dengan minat dan preferensi mereka. Dengan memanfaatkan algoritma _content-based filtering_, sistem dapat menawarkan rekomendasi yang lebih personal dan relevan. Sesuai dengan goals kedua, yang mencakup pengembangan model rekomendasi yang dapat meningkatkan pengalaman pengguna.
 
 ## Data Understanding
 
@@ -65,7 +65,9 @@ Berikut adalah beberapa plot visualisasi tambahan untuk memberikan pemahaman yan
    - Puncak distribusi terlihat pada sekitar rating 8.1 hingga 8.4, menunjukkan bahwa banyak film yang mendapatkan rating tinggi namun tidak mencapai nilai sempurna.
 
    ![rating film](image.png)
+
    Gambar 1. Histogram rating film
+
    Pada gambar 1, menampilkan histogram distribusi rating film dalam dataset. Mayoritas film dalam daftar top 250 memiliki rating antara 8.0 hingga 9.3, dengan puncak distribusi terlihat pada sekitar rating 8.1 hingga 8.4. Ini menunjukkan bahwa sebagian besar film mendapatkan rating yang tinggi namun tidak mencapai nilai sempurna.
 
 2. Histogram Tahun Rilis:
@@ -74,7 +76,9 @@ Berikut adalah beberapa plot visualisasi tambahan untuk memberikan pemahaman yan
    - Ada peningkatan jumlah film dalam beberapa dekade terakhir, yang mungkin menunjukkan peningkatan produksi film berkualitas atau peningkatan jumlah film yang diakui oleh IMDB dalam beberapa tahun terakhir.
 
    ![tahun film](image-1.png)
+
    Gambar 2. Histogram tahun rilis
+
    Pada gambar 2, menunjukkan histogram distribusi tahun rilis film dalam dataset. Film-film yang masuk dalam daftar top 250 tersebar dari tahun 1920 hingga tahun 2021. Ada peningkatan jumlah film dalam beberapa dekade terakhir, yang mungkin menunjukkan peningkatan produksi film berkualitas atau peningkatan jumlah film yang diakui oleh IMDB dalam beberapa tahun terakhir.
 
 3. Jumlah data dan jenis genre: Representasi data genre menunjukkan bahwa terdapat 104 kombinasi genre unik dalam dataset. Keberagaman genre ini menunjukkan bahwa film-film top di IMDB datang dari berbagai macam kategori, yang mencerminkan preferensi yang luas di kalangan penonton. Genre paling umum seperti Drama, Action, dan Crime sering kali ditemukan, yang menunjukkan popularitas genre tersebut.
@@ -163,7 +167,7 @@ Pada tabel 2. Menunjukkan bahwa 4 film memiliki genre yang sama dengan film "_Th
 
 Dalam proyek ini, metrik evaluasi yang digunakan adalah _precision_. Precision dihitung sebagai jumlah film yang direkomendasikan yang memiliki genre yang sama dengan genre film yang diketahui sebagai benar (_actual genre_) dibagi dengan total jumlah film yang direkomendasikan. Metrik ini definisikan sebagai:
 
-Precision = $Jumlah film direkomendasikan yang sesuai dengan preferensi pengguna / Total jumlah film direkomendasikan$
+Precision = $Jumlah film direkomendasikan yang sesuai dengan preferensi pengguna \over Total jumlah film direkomendasikan$
 
 Dalam proyek ini, menggunakan metrik precision untuk mengevaluasi seberapa baik sistem rekomendasi film dalam memberikan rekomendasi yang sesuai dengan genre film yang disukai pengguna. Semakin tinggi nilai precision, semakin baik sistem dalam memberikan rekomendasi yang relevan dengan preferensi pengguna. Hasil evaluasi menunjukkan bahwa _precision_ yang diperoleh adalah 0.80. Artinya, dari 5 film yang direkomendasikan, 4 film memiliki genre yang sesuai dengan genre film "_The Dark Knight_", yaitu _Action, Crime_, dan Drama.
 
