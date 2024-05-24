@@ -82,7 +82,7 @@ Berikut adalah beberapa plot visualisasi tambahan untuk memberikan pemahaman yan
 
 3. Jumlah data dan jenis genre: Representasi data genre menunjukkan bahwa terdapat 104 kombinasi genre unik dalam dataset. Keberagaman genre ini menunjukkan bahwa film-film top di IMDB datang dari berbagai macam kategori, yang mencerminkan preferensi yang luas di kalangan penonton. Genre paling umum seperti Drama, Action, dan Crime sering kali ditemukan, yang menunjukkan popularitas genre tersebut.
 
-Insight-insight ini penting untuk memahami preferensi penonton dan tren dalam industri film. Ini juga memberikan dasar yang kuat untuk pengembangan model sistem rekomendasi film berbasis genre, di mana film yang mirip dengan genre yang disukai pengguna dapat direkomendasikan dengan lebih akurat.
+Insight-insight tersebut penting untuk memahami preferensi penonton dan tren dalam industri film. Serta memberikan dasar yang kuat untuk pengembangan model sistem rekomendasi film berbasis genre, di mana film yang mirip dengan genre yang disukai pengguna dapat direkomendasikan dengan lebih akurat.
 
 ## Data Preparation
 
@@ -98,7 +98,10 @@ Pada tahap ini, data akan dipersiapkan untuk pengembangan model. Berikut adalah 
 - Object: Tipe data object adalah tipe data umum yang digunakan untuk menyimpan teks atau string.
 - Float: Tipe data float adalah tipe data numerik yang digunakan untuk menyimpan bilangan pecahan atau desimal.
 
-2. Melihat Statistik Deskriptif: Dengan menggunakan df.describe(include="all"), mendapatkan statistik deskriptif untuk setiap variabel dalam dataset, baik numerik maupun kategorikal.
+2. Melihat Statistik Deskriptif: Dengan menggunakan df.describe(include="all"), mendapatkan statistik deskriptif untuk setiap variabel dalam dataset, baik numerik maupun kategorikal. Contoh sebagai berikut:
+   - Jumlah Data: Terdapat 250 entri dalam dataset untuk setiap kolom.
+   - Kolom _Unique_: Kolom menunjukkan jumlah nilai unik dalam setiap kolom. Misalnya, ada 104 genre unik, 13 _certificate_ unik, 127 _budget_ unik, dan sebagainya.
+   - _Top_: Menunjukkan nilai paling sering muncul dalam setiap kolom. Contohnya, film yang paling sering muncul dalam dataset adalah "_The Shawshank Redemption_" dengan 19 kemunculan.
 3. Penanganan Nilai yang Hilang: Dari informasi data, terlihat bahwa tidak ada nilai yang hilang dalam dataset. Oleh karena itu, tidak diperlukan penanganan khusus untuk nilai yang hilang.
 
 Informasi Tambahan:
