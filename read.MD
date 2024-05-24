@@ -26,9 +26,6 @@ Penelitian ini bertujuan untuk mengembangkan sistem rekomendasi film yang dapat 
    - Platform film: Mereka adalah sasaran untuk meningkatkan retensi pengguna, meningkatkan pengalaman pengguna, dan meningkatkan kepuasan pengguna secara keseluruhan.
    - Pengguna: Pengguna adalah target utama dari rekomendasi film yang disediakan oleh platform. Mereka mencari pengalaman menonton yang memuaskan dan ingin menemukan konten yang sesuai dengan minat genre mereka dengan mudah.
 
-3. Penerapan Aplikatif:
-   Penerapan akan dilakukan melalui integrasi algoritma content-based filtering. Dengan memanfaatkan data dari dataset IMDB Top 250 Movies dan algoritma content-based filtering, platform akan dapat menyediakan rekomendasi film yang lebih relevan kepada pengguna. Dengan demikian, penerapan ini akan memberikan manfaat langsung kepada pengguna dan membantu platform dalam mencapai tujuan bisnis mereka.
-
 ### Problem Statements
 
 1. Tantangan Pemilihan Film: Banyaknya pilihan film yang tersedia dapat membuat pengguna kesulitan dalam memilih film yang sesuai dengan preferensi dan minat mereka.
