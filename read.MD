@@ -119,12 +119,7 @@ Pada tahap ini, data akan dipersiapkan untuk pengembangan model. Berikut adalah 
    - Jumlah Data: Terdapat 250 entri dalam dataset untuk setiap kolom.
    - Kolom _Unique_: Kolom menunjukkan jumlah nilai unik dalam setiap kolom. Misalnya, ada 104 genre unik, 13 _certificate_ unik, 127 _budget_ unik, dan sebagainya.
    - _Top_: Menunjukkan nilai paling sering muncul dalam setiap kolom. Contohnya, film yang paling sering muncul dalam dataset adalah "_The Shawshank Redemption_" dengan 19 kemunculan.
-3. Penanganan Nilai yang Hilang: Dari informasi data, terlihat bahwa tidak ada nilai yang hilang dalam dataset. Oleh karena itu, tidak diperlukan penanganan khusus untuk nilai yang hilang.
-
-Informasi Tambahan:
-
-- Jumlah Data: 250 entri
-- Tidak ada nilai yang hilang dalam dataset: Hal ini menunjukkan bahwa dataset lengkap dan siap untuk proses lebih lanjut tanpa memerlukan teknik imputasi atau penanganan missing value.
+3. Penanganan Nilai yang Hilang: Dari informasi data, terlihat bahwa tidak ada nilai yang hilang dalam dataset. Oleh karena itu, tidak diperlukan penanganan khusus untuk nilai yang hilang. Menunjukkan bahwa dataset lengkap dan siap untuk proses lebih lanjut tanpa memerlukan teknik imputasi atau penanganan missing value.
 
 ## Modeling
 
