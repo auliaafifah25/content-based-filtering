@@ -133,6 +133,8 @@ Dengan menggunakan fungsi film_recommendations (film_recommendations('The Dark K
 | 3   | Kill Bill: Vol. 1                   | Action,Crime,Drama  |
 | 4   | Lock, Stock and Two Smoking Barrels | Action,Comedy,Crime |
 
+Pada tabel 1. Menunjukkan bahwa 4 film memiliki genre yang sama dengan film "_The Dark Knight_", yaitu _Action, Crime_, dan Drama dan film '_Lock, Stock and Two Smoking Barrels_' memiliki Action, Comedy, Crime. Berbeda satu genre dengan film '_The Dark Knight_' yaitu drama.
+
 1. Kelebihan _Content-Based Filtering_:
    - Tidak memerlukan informasi eksternal atau data pengguna lainnya, hanya memerlukan data internal tentang film itu sendiri.
    - Dapat memberikan rekomendasi yang personal dan sesuai dengan preferensi pengguna, karena didasarkan pada fitur-fitur yang dianggap penting oleh pengguna.
@@ -145,8 +147,6 @@ Dengan menggunakan fungsi film_recommendations (film_recommendations('The Dark K
 Dalam proyek ini, metrik evaluasi yang digunakan adalah _precision_. Precision dihitung sebagai jumlah film yang direkomendasikan yang memiliki genre yang sama dengan genre film yang diketahui sebagai benar (_actual genre_) dibagi dengan total jumlah film yang direkomendasikan.
 
 Hasil evaluasi menunjukkan bahwa _precision_ yang diperoleh adalah 0.80. Artinya, dari 5 film yang direkomendasikan, 4 film memiliki genre yang sesuai dengan genre film "_The Dark Knight_", yaitu _Action, Crime_, dan Drama.
-
-Pada tabel 1. Menunjukkan bahwa 4 film memiliki genre yang sama dengan film "_The Dark Knight_", yaitu _Action, Crime_, dan Drama dan film '_Lock, Stock and Two Smoking Barrels_' memiliki Action, Comedy, Crime. Berbeda satu genre dengan film '_The Dark Knight_' yaitu drama.
 
 Dengan _precision_ sebesar 0.80, dapat disimpulkan bahwa sistem rekomendasi yang dibangun memiliki tingkat akurasi yang cukup tinggi dalam merekomendasikan film-film yang sesuai dengan genre film yang diketahui. Hasil ini menunjukkan bahwa sistem rekomendasi telah berhasil memberikan rekomendasi yang relevan dengan preferensi pengguna berdasarkan genre film yang disukai sebelumnya.
 
