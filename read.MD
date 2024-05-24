@@ -38,30 +38,31 @@ Penelitian ini bertujuan untuk mengembangkan sistem rekomendasi film yang dapat 
 
 ## Data Understanding
 
-Dataset yang digunakan dalam proyek ini adalah "IMDB Top 250 Movies Dataset: The Most Highly Rated Movies on IMDB". Dataset ini dapat diunduh dari sumber Kaggle: [IMDB Top 250 Movies Dataset](https://www.kaggle.com/datasets/rajugc/imdb-top-250-movies-dataset). Dataset ini merupakan kumpulan data yang berisi informasi tentang 250 film teratas di IMDB pada tahun 2021. Data ini mencakup berbagai atribut film seperti judul, tahun rilis, rating, genre, sutradara, dan penulis. Jumlah Data: 250 baris.
+Dataset yang digunakan dalam proyek ini adalah "IMDB Top 250 Movies Dataset: The Most Highly Rated Movies on IMDB". Dataset ini dapat diunduh dari sumber Kaggle: [IMDB Top 250 Movies Dataset](https://www.kaggle.com/datasets/rajugc/imdb-top-250-movies-dataset). Dataset ini merupakan kumpulan data yang berisi informasi tentang 250 film teratas di IMDB pada tahun 2021. Data ini mencakup berbagai atribut film seperti judul, tahun rilis, rating, genre, sutradara, dan penulis. DDataset ini berisi informasi tentang 250 film teratas di IMDB. Berikut adalah deskripsi singkat tentang dataset ini:
 
-Variabel dalam Dataset:
-
-- rank: Nomor peringkat film dalam daftar top 250 IMDB.
-- name: Nama film.
-- year: Tahun rilis film.
-- rating: Rating film oleh IMDB.
-- genre: Genre film.
-- certificate: Sertifikat film.
-- run_time: Durasi total film.
-- tagline: Tagline film.
-- budget: Anggaran film.
-- box_office: Pendapatan total di box office di seluruh dunia.
-- casts: Nama-nama pemeran dalam film.
-- directors: Nama-nama sutradara film.
-- writers: Nama-nama penulis skenario film.
+- Jumlah data: 250 entri
+- Jumlah kolom: 13 kolom
+- Variable dan tipe data
+  - rank: Nomor peringkat film dalam daftar top 250 IMDB (Integer).
+  - name: Nama film (Object).
+  - year: Tahun rilis film (Integer).
+  - rating: Rating film oleh IMDB (Float).
+  - genre: Genre film (Object).
+  - certificate: Sertifikat film (Object).
+  - run_time: Durasi total film (Object).
+  - tagline: Tagline film (Object).
+  - budget: Anggaran film (Object).
+  - box_office: Pendapatan total di box office di seluruh dunia (Object).
+  - casts: Nama-nama pemeran dalam film (Object).
+  - directors: Nama-nama sutradara film (Object).
+  - writers: Nama-nama penulis skenario film (Object).
 
 Visualisasi Tambahan:
 Berikut adalah beberapa plot visualisasi tambahan untuk memberikan pemahaman yang lebih baik tentang dataset:
 
 1. Histogram rating Film:
 
-   - Distribusi rating film menunjukkan bahwa mayoritas film dalam daftar top 250 memiliki rating antara 8.0 hingga 9.3.
+   - Distribusi rating film menunjukkan bahwa mayoritas film dalam daftar top 250 memiliki rating antara 8.0 hingga 9.3 yang dapat dilihat pada gambar 1.
    - Puncak distribusi terlihat pada sekitar rating 8.1 hingga 8.4, menunjukkan bahwa banyak film yang mendapatkan rating tinggi namun tidak mencapai nilai sempurna.
 
    ![rating film](image.png)
@@ -72,7 +73,7 @@ Berikut adalah beberapa plot visualisasi tambahan untuk memberikan pemahaman yan
 
 2. Histogram Tahun Rilis:
 
-   - Distribusi tahun rilis menunjukkan bahwa film-film yang masuk dalam daftar top 250 tersebar dari tahun 1920 hingga tahun 2021 yang dapat dilihat di gambar 2 bawah ini.
+   - Distribusi tahun rilis menunjukkan bahwa film-film yang masuk dalam daftar top 250 tersebar dari tahun 1920 hingga tahun 2021 yang dapat dilihat pada gambar 2.
    - Ada peningkatan jumlah film dalam beberapa dekade terakhir, yang mungkin menunjukkan peningkatan produksi film berkualitas atau peningkatan jumlah film yang diakui oleh IMDB dalam beberapa tahun terakhir.
 
    ![tahun film](image-1.png)
